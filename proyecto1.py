@@ -14,3 +14,14 @@ nombre,extension=os.path.splitext(archivo)
 print(nombre,extension)
 #Result  
 #D:/busqueda
+
+#if
+# if(1==1):
+#     print("es igual")
+# else:
+#     print("No es igual")
+
+#Eliminar el .
+numero = "13.900"
+numero_sin_punto = numero.replace(".", "")
+print(numero_sin_punto)
