@@ -51,15 +51,27 @@ print(salida.decode())
 
 # Manejo de datos
 
-datosObtenidos = """id nombre
-1 pedro
-2 juan
-4 patricio"""
+# datosObtenidos = """x.p"""
 
 # listas de listas
-b=datosObtenidos.split("\n")
+# b=datosObtenidos.split("\n")
 
-print(b)
-a = [x.split(" ") for x in b]
+# print(b)
+# a = [x.split(" ") for x in b]
 
-print(a)
+# print(a)
+
+nExcel="PRICE LIST 24RTMX-ELEN006.xls"
+
+pricelist="PRICE LIST" in nExcel
+
+print(pricelist)
+
+palabra = None
+
+if palabra is None:
+    print(palabra)
+    print("Es None")
+else:
+    print(palabra)
+    print("No Es None")
