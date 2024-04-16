@@ -69,9 +69,9 @@ print(pricelist)
 
 palabra = None
 
-if palabra is None:
+if palabra is not None:
     print(palabra)
-    print("Es None")
+    print("No Es None","xxxxxxxxxxxxxxxx")
 else:
     print(palabra)
-    print("No Es None")
+    print("Es None",">>>>>>>>>>>>>>>>")
