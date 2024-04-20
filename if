@@ -1,0 +1,11 @@
+palabra = None
+
+#if None
+if palabra is not None:
+    print(palabra)
+    print("No Es None","xxxxxxxxxxxxxxxx")
+else:
+    print(palabra)
+    print("Es None",">>>>>>>>>>>>>>>>")
+
+
