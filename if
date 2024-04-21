@@ -3,9 +3,9 @@ palabra = None
 #if None
 if palabra is not None:
     print(palabra)
-    print("No Es None","xxxxxxxxxxxxxxxx")
+    print("No Es None","xxxxxxxxxxxxxxxx",palabra)
 else:
     print(palabra)
-    print("Es None",">>>>>>>>>>>>>>>>")
+    print("Es None",">>>>>>>>>>>>>>>>",palabra)
 
 

@@ -49,17 +49,6 @@ salida, errores = proceso.communicate()
 # Imprimir la salida del comando
 print(salida.decode())
 
-# Manejo de datos
-
-# datosObtenidos = """x.p"""
-
-# listas de listas
-# b=datosObtenidos.split("\n")
-
-# print(b)
-# a = [x.split(" ") for x in b]
-
-# print(a)
 
 nExcel="PRICE LIST 24RTMX-ELEN006.xls"
 
