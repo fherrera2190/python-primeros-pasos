@@ -1,0 +1,1 @@
+mongodb+srv://ferbeoulve:root1234@cluster0.s9kw73z.mongodb.net/?retryWrites=true&w=majority&dbName=ecommerce
