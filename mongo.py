@@ -8,8 +8,13 @@ client = MongoClient(uri, server_api=ServerApi('1'))
 # Send a ping to confirm a successful connection
 try:
     a=client.admin.command('ping')
+    #client.command('ping')
     print(a)
-    print(client.list_database_names())
+
+    #print(client.list_database_names())
+    collection = client["ecommerce"]["products"]
+    print(collection)
+    client.close()
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
