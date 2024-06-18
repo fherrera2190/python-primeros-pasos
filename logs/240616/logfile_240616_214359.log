@@ -1,0 +1,6 @@
+2024-06-16 21:44:02.856795 - rocketbot - SYSTEM - Init bot (-start): prueba
+2024-06-16 21:44:02.862652 - Rocketbot - ERROR - EXCEPTION IN (<string> Rocketbot, L_637 ""): AttributeError: 'Rocketbot' object has no attribute 'user'
+2024-06-16 21:44:02.866673 - rocketbot - INFO - request: prueba : line 1 - rpasystem : get_all_arguments  id: f13969c6-a62a-86a9-588c-2ec73b279de2 -  - {"assign_to":"queue"}
+2024-06-16 21:44:02.875991 - rocketbot - INFO - request: prueba : line 2 - rpascripts : execscriptpython  id: 9a5049c2-d7c6-5d88-ba6f-31ad30c9d9cc -  - print(">>>>>>>>>>>>>>>>>>",{queue})
+2024-06-16 21:44:02.895654 - rocketbot - SYSTEM - END bot: prueba
+2024-06-16 21:44:02.906438 - rocketbot - SYSTEM - Execution time: 0:00:00.038859

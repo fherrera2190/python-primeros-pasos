@@ -1,0 +1,5 @@
+2024-06-16 19:46:40.401758 - rocketbot - SYSTEM - Init bot (-start): prueba
+2024-06-16 19:46:40.423208 - rocketbot - INFO - request: prueba : line 1 - rpasystem : get_all_arguments  id: f13969c6-a62a-86a9-588c-2ec73b279de2 -  - {"assign_to":"queue"}
+2024-06-16 19:46:40.437819 - rocketbot - INFO - request: prueba : line 2 - rpascripts : execscriptpython  id: 9a5049c2-d7c6-5d88-ba6f-31ad30c9d9cc -  - print(">>>>>>>>>>>>>>>>>>",{queue})
+2024-06-16 19:46:40.442554 - rocketbot - SYSTEM - END bot: prueba
+2024-06-16 19:46:40.459139 - rocketbot - SYSTEM - Execution time: 0:00:00.040796

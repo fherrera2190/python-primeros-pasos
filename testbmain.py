@@ -1,0 +1,3 @@
+import testamain
+
+testamain.main()
